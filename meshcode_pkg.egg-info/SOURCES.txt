@@ -1,0 +1,7 @@
+setup.py
+meshcode_pkg.egg-info/PKG-INFO
+meshcode_pkg.egg-info/SOURCES.txt
+meshcode_pkg.egg-info/dependency_links.txt
+meshcode_pkg.egg-info/not-zip-safe
+meshcode_pkg.egg-info/requires.txt
+meshcode_pkg.egg-info/top_level.txt

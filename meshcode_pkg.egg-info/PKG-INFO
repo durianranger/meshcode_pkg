@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: meshcode_pkg
+Version: 0.1
+Summary: Convert lat/lon to Japanese meshcode and vice versa
+Author: Ran DU
+Author-email: durianranger94@gmail.com
+License: MIT
+Requires-Dist: shapely
