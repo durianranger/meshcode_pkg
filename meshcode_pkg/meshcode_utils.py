@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jun 12 11:03:13 2025
 
-@author: du
-"""
 
 from shapely.geometry import Polygon
 def decode_japan_mesh(meshcode):
@@ -148,6 +143,7 @@ def latlon_to_meshcode(lat, lon, level=4):
         2 if lat_min < (1 / 480) else
         3 if lon_min < (1 / 320) else 4
     )
+    
     meshcode += f"{sub_5}"
 
     return meshcode
