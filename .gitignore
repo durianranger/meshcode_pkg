@@ -1,0 +1,54 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Jun 12 11:45:41 2025
+
+@author: du
+"""
+
+# ==== Python 缓存 ====
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# ==== pip/打包生成文件 ====
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+*.manifest
+*.spec
+
+# ==== Anaconda / Spyder 生成文件 ====
+.spyproject/
+*.bak
+*.tmp
+*.log
+*.sqlite
+*.autosave.py
+ipython_config.py
+.history/
+
+# ==== Spyder 的项目设置 ====
+.spyderproject
+.spyderproject.lock
+.spyderworkspace
+.spyderworkspace.lock
+
+# ==== Jupyter Notebook ====
+.ipynb_checkpoints/
+
+# ==== VS Code / PyCharm 编辑器 ====
+.vscode/
+.idea/
+
+# ==== 操作系统垃圾 ====
+.DS_Store
+Thumbs.db
+
+# ==== 环境文件 ====
+.env
+.venv
+env/
+venv/
